@@ -35,3 +35,11 @@ my_friend.hobby = "Play voleyboll"
 
 print(my_friend.hobby)
 
+my_friend2 = Person ("sss")
+my_friend.height =
+my_friend.age =
+my_friend.name =
+my_friend.is_male =
+my_friend.hobby = 
+
+
