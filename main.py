@@ -3,10 +3,14 @@ class Person:
   age = 13
   name = "Mark"
   is_male = True
+  hobby = "play voleyboll"
 
   def __init__(self,surname):
     self.surname = surname
     print(self.name)
+
+  def do_my_thing(self):
+    print("I love",self.hobby)
     
 
 
@@ -17,5 +21,17 @@ print(me.age)
 me.age += 1
 print(me.age)
 
-# print(me.surname)
-# print(you.surname)
+me.do_my_thing()
+
+
+my_friend = Person ("sssss") 
+my_friend.height = 173
+my_friend.age = 13
+my_friend.name = "Vova"
+my_friend.is_male = True
+my_friend.hobby = "Play voleyboll"
+
+my_friend.hobby = "Play voleyboll"
+
+print(my_friend.hobby)
+
