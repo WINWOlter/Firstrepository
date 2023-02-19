@@ -5,7 +5,9 @@ class Person:
   is_male = True
 
 
-me = Person()
-you = Person()
+me = Person ()
+you = Person ()
 
+print(me.age)
+me.age += 1
 print(me.age)
